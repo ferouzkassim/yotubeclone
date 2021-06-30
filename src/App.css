@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(48, 47, 47);
+    color: white
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+    position: absolute;
+    right: 10px;
+    top: 2vh
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-logo {
+    height: 2vw
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dropbar {
+    position: absolute;
+    left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.yout {
+    font-weight: bold;
+    font-size: larger;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.youtube {
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+header ul li {
+    list-style: none;
+    text-transform: capitalize;
 }
